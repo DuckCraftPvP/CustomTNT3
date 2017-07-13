@@ -1,0 +1,24 @@
+## // CustomTNT || DuckCraftPvP.com \\ ##
+
+## Config has no use yet, Not yet programed
+## Config does not support color codes yet, Coming Soon!
+
+SandDemon:
+  Description:
+  - 'Test Description'
+
+Version: 2.0
+
+## Update log ||
+
+## Removed ObbyDestroyer dependicy
+## Added a Config
+## Removed unused code / Imports that made file larger
+## Added Cookies :)
+
+## Todo ||
+## Make config do something
+## Rename TnTs
+## Make work across all versions 1.7.10 and up
+## Add more TNT
+ 
