@@ -1,7 +1,4 @@
 name: CustomTNT
 author: GHStudios
 version: 1.1
-main: com.duckcraftpvp.ghstudios.CustomTNT
-commands:
-  CustomTNT:
-    description: CustomTNT Give [player] [level] [amount]  
+main: com.duckcraftpvp.ghstudios.CustomTNT 

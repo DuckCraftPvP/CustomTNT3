@@ -14,7 +14,8 @@ public class FunTNT extends TNT
     
     @Override
     protected boolean onExplode(final Location location) {
-        location.getWorld().playSound(location, Sound.ENTITY_LIGHTNING_THUNDER, 10.0f, 10.0f);
+        location.getWorld().playSound(location, Sound.BLOCK_NOTE_CHIME, 10.0f, 10.0f);
+        location.getWorld().playSound(location, Sound.ENTITY_FIREWORK_TWINKLE , 10.0f, 10.0f);
         new InstantFirework(InstantFirework.getRandomFirework(), location);
         return false;
     }

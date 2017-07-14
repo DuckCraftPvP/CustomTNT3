@@ -2,9 +2,7 @@ package com.duckcraftpvp.ghstudios;
 
 import org.bukkit.plugin.java.*;
 import com.duckcraftpvp.ghstudios.tnt.*;
-
 import net.md_5.bungee.api.ChatColor;
-
 import org.bukkit.scheduler.*;
 import org.bukkit.block.*;
 import org.bukkit.entity.*;

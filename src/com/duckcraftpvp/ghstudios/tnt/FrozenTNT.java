@@ -6,9 +6,9 @@ import org.bukkit.*;
 
 public class FrozenTNT extends TNT
 {
-    @SuppressWarnings({ "unchecked", "serial", "rawtypes" })
 	public FrozenTNT(final JavaPlugin plugin) {
-        super(plugin, ChatColor.GREEN + "Frozen TNT", ChatColor.GOLD + "This tnt apon exploding will freeze all water", new ArrayList() {});
+        super(plugin, ChatColor.GREEN + "Frozen TNT", ChatColor.GOLD + "This tnt apon exploding will freeze all water", new ArrayList<String>() {
+			private static final long serialVersionUID = 1L;});
     }
     
     @Override
